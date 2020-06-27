@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Debug="true" Language="C#" Service="WCF_ADOTEC.Contract.Service_ADOTEC" %>

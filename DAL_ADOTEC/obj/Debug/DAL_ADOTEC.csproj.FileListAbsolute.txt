@@ -1,0 +1,11 @@
+E:\Escritorio\ADOTEC_Service\DAL_ADOTEC\bin\Debug\DAL_ADOTEC.dll
+E:\Escritorio\ADOTEC_Service\DAL_ADOTEC\bin\Debug\DAL_ADOTEC.pdb
+E:\Escritorio\ADOTEC_Service\DAL_ADOTEC\obj\Debug\DAL_ADOTEC.csprojAssemblyReference.cache
+E:\Escritorio\ADOTEC_Service\DAL_ADOTEC\obj\Debug\DAL_ADOTEC.dll
+E:\Escritorio\ADOTEC_Service\DAL_ADOTEC\obj\Debug\DAL_ADOTEC.pdb
+C:\Users\usuario\Source\Repos\ADOTEC_Service\DAL_ADOTEC\bin\Debug\DAL_ADOTEC.dll
+C:\Users\usuario\Source\Repos\ADOTEC_Service\DAL_ADOTEC\bin\Debug\DAL_ADOTEC.pdb
+C:\Users\usuario\Source\Repos\ADOTEC_Service\DAL_ADOTEC\obj\Debug\DAL_ADOTEC.csprojAssemblyReference.cache
+C:\Users\usuario\Source\Repos\ADOTEC_Service\DAL_ADOTEC\obj\Debug\DAL_ADOTEC.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Source\Repos\ADOTEC_Service\DAL_ADOTEC\obj\Debug\DAL_ADOTEC.dll
+C:\Users\usuario\Source\Repos\ADOTEC_Service\DAL_ADOTEC\obj\Debug\DAL_ADOTEC.pdb
