@@ -19,10 +19,10 @@ namespace BLL_ADOTEC.Login
         public string ValidarUsuario(string User, string Password)
         {
             Obj_Conexion.CrearParametros(ref Obj_Variables);
-            Obj_Variables.DT_Parametros.Rows.Add("@NOMBRE_USUARIO", 4, User.ToString().Trim());
+            Obj_Variables.DT_Parametros.Rows.Add("@IDUSUARIO", 4, User.ToString().Trim());
             Obj_Variables.DT_Parametros.Rows.Add("@CONTRASENA", 4, Password.ToString().Trim());
-            Obj_Variables.sTableName = "Validar_Usuario";
-            Obj_Variables.sSP_Name = "dbo.SP_ValidarUsuario";
+            Obj_Variables.sTableName = "Login";
+            Obj_Variables.sSP_Name = "dbo.SP_Login";
             Obj_Conexion.Execute_DataAdapter(ref Obj_Variables);
 
             if (Obj_Variables.Obj_DSet.Tables[0] == null)
