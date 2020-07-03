@@ -21,11 +21,13 @@ namespace BLL_ADOTEC.Login
             Obj_Conexion.CrearParametros(ref Obj_Variables);
             Obj_Variables.DT_Parametros.Rows.Add("@IDUSUARIO", 4, User.ToString().Trim());
             Obj_Variables.DT_Parametros.Rows.Add("@CONTRASENA", 4, Password.ToString().Trim());
-            Obj_Variables.sTableName = "Login";
+            Obj_Variables.sTableName = "Usuarios";
             Obj_Variables.sSP_Name = "dbo.SP_Login";
             Obj_Conexion.Execute_DataAdapter(ref Obj_Variables);
+            DataTable dt = new DataTable();
+            dt = Obj_Variables.Obj_DSet.Tables[0];
 
-            if (Obj_Variables.Obj_DSet.Tables[0] == null)
+            if (dt.Rows.Count == 0)
             {
                 return null;
             }

@@ -21,15 +21,8 @@ namespace WCF_ADOTEC.Contract
             string Confirmacion = "";
             cls_Login_BLL Obj_Login = new cls_Login_BLL();
             Confirmacion = Obj_Login.ValidarUsuario(Usuario, Contrasena);
-
-            if (Confirmacion != string.Empty)
-            {
-                return Confirmacion;
-            }
-            else
-            {
-                return null;
-            }
+                        
+             return Confirmacion;            
 
         }
 
