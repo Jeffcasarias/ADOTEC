@@ -30,10 +30,11 @@ namespace BLL_ADOTEC.Login
             if (dt.Rows.Count == 0)
             {
                 return "Usuario o Contraseña inválido";
+                
             }
             else
             {
-                return "Login exitoso";
+                return null;
             }
 
         }

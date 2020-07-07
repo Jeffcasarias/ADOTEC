@@ -18,7 +18,7 @@ namespace WCF_ADOTEC.Contract
         }
         public string Validar_Usuario(string Usuario, string Contrasena)
         {
-            string Confirmacion = "";
+            string Confirmacion;
             cls_Login_BLL Obj_Login = new cls_Login_BLL();
             Confirmacion = Obj_Login.ValidarUsuario(Usuario, Contrasena);
                         
