@@ -29,7 +29,7 @@ namespace BLL_ADOTEC.Login
 
             if (dt.Rows.Count == 0)
             {
-                return null;
+                return "Usuario o Contraseña inválido";
             }
             else
             {
