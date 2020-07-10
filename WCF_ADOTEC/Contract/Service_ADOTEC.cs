@@ -7,6 +7,7 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using WCF_ADOTEC.Interface;
 using BLL_ADOTEC.Login;
+using BLL_ADOTEC.Reportes;
 
 namespace WCF_ADOTEC.Contract
 {
@@ -31,6 +32,13 @@ namespace WCF_ADOTEC.Contract
             cls_Login_BLL Obj_Recuperar = new cls_Login_BLL();
 
             return Obj_Recuperar.RecuperarContrasena(Correo);
+        }
+
+        public void GeneraExcel(string NombreArchivo)
+        {
+            PruebaReporte obj_rep = new PruebaReporte();
+
+            obj_rep.GenerarExcel(NombreArchivo);
         }
     }
 }

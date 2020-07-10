@@ -15,3 +15,11 @@ C:\Users\usuario\Source\Repos\ADOTEC_Service\BLL_ADOTEC\obj\Debug\BLL_ADOTEC.csp
 C:\Users\usuario\Source\Repos\ADOTEC_Service\BLL_ADOTEC\obj\Debug\BLL_ADOTEC.csproj.CopyComplete
 C:\Users\usuario\Source\Repos\ADOTEC_Service\BLL_ADOTEC\obj\Debug\BLL_ADOTEC.dll
 C:\Users\usuario\Source\Repos\ADOTEC_Service\BLL_ADOTEC\obj\Debug\BLL_ADOTEC.pdb
+C:\Users\usuario\Source\Repos\ADOTEC_Service\BLL_ADOTEC\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\usuario\Source\Repos\ADOTEC_Service\BLL_ADOTEC\bin\Debug\System.Security.AccessControl.dll
+C:\Users\usuario\Source\Repos\ADOTEC_Service\BLL_ADOTEC\bin\Debug\System.Security.Permissions.dll
+C:\Users\usuario\Source\Repos\ADOTEC_Service\BLL_ADOTEC\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\usuario\Source\Repos\ADOTEC_Service\BLL_ADOTEC\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\usuario\Source\Repos\ADOTEC_Service\BLL_ADOTEC\bin\Debug\System.Security.AccessControl.xml
+C:\Users\usuario\Source\Repos\ADOTEC_Service\BLL_ADOTEC\bin\Debug\System.Security.Permissions.xml
+C:\Users\usuario\Source\Repos\ADOTEC_Service\BLL_ADOTEC\bin\Debug\System.Security.Principal.Windows.xml

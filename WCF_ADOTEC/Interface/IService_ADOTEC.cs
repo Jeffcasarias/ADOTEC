@@ -19,5 +19,8 @@ namespace WCF_ADOTEC.Interface
 
         [OperationContract]
         string Recuperar_Contrasena(string Correo);
+
+        [OperationContract]
+        void GeneraExcel(string NombreArchivo);
     }
 }
