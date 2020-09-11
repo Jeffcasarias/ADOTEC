@@ -45,6 +45,7 @@
     <Compile Include="ConexionBD\cls_ConexBD_DAL.cs" />
     <Compile Include="ConexionBD\cls_VariablesConexBD_DAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test\cls_TestAptitud_DAL.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -22,5 +22,8 @@ namespace WCF_ADOTEC.Interface
 
         [OperationContract]
         void GeneraExcel(string NombreArchivo);
+
+        [OperationContract]
+        void RespuestasTest(string[] Respuestas);
     }
 }

@@ -8,6 +8,8 @@ using System.ServiceModel;
 using WCF_ADOTEC.Interface;
 using BLL_ADOTEC.Login;
 using BLL_ADOTEC.Reportes;
+using BLL_ADOTEC.Test;
+using DAL_ADOTEC.ConexionBD;
 
 namespace WCF_ADOTEC.Contract
 {
@@ -39,6 +41,15 @@ namespace WCF_ADOTEC.Contract
             PruebaReporte obj_rep = new PruebaReporte();
 
             obj_rep.GenerarExcel(NombreArchivo);
+        }
+
+        public void RespuestasTest(string [] Respuestas)
+        {
+            cls_TestAptitud_BLL objBLL = new cls_TestAptitud_BLL();
+            cls_VariablesConexBD_DAL objDAL = new cls_VariablesConexBD_DAL ();
+
+            objBLL.VerificaAptitud(Respuestas, ref objDAL);
+
         }
     }
 }
