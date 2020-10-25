@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.Serialization;
 using System.ServiceModel;
+using System.Data;
 
 namespace WCF_ADOTEC.Interface
 {
@@ -25,5 +26,8 @@ namespace WCF_ADOTEC.Interface
 
         [OperationContract]
         void RespuestasTest(string[] Respuestas);
+
+        [OperationContract]
+        DataTable Filtrar_Estudiante(int iIdEstudiante);
     }
 }

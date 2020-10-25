@@ -10,6 +10,7 @@ using BLL_ADOTEC.Login;
 using BLL_ADOTEC.Reportes;
 using BLL_ADOTEC.Test;
 using DAL_ADOTEC.ConexionBD;
+using System.Data;
 
 namespace WCF_ADOTEC.Contract
 {
@@ -46,10 +47,16 @@ namespace WCF_ADOTEC.Contract
         public void RespuestasTest(string [] Respuestas)
         {
             cls_TestAptitud_BLL objBLL = new cls_TestAptitud_BLL();
-            cls_VariablesConexBD_DAL objDAL = new cls_VariablesConexBD_DAL ();
 
-            objBLL.VerificaAptitud(Respuestas, ref objDAL);
+            objBLL.VerificaAptitud(Respuestas);
 
+        }
+
+        public DataTable Filtrar_Estudiante(int iIdEstudiante)
+        {
+            cls_TestAptitud_BLL objBLL = new cls_TestAptitud_BLL();
+
+            return objBLL.Filtrar_Estudiante(iIdEstudiante);
         }
     }
 }
