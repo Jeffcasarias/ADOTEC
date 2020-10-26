@@ -22,12 +22,12 @@ namespace WCF_ADOTEC.Interface
         string Recuperar_Contrasena(string Correo);
 
         [OperationContract]
-        void GeneraExcel(string NombreArchivo);
-
-        [OperationContract]
         void RespuestasTest(string[] Respuestas);
 
         [OperationContract]
         DataTable Filtrar_Estudiante(int iIdEstudiante);
+
+        [OperationContract]
+        DataTable Genera_Reporte();
     }
 }

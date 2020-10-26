@@ -37,13 +37,6 @@ namespace WCF_ADOTEC.Contract
             return Obj_Recuperar.RecuperarContrasena(Correo);
         }
 
-        public void GeneraExcel(string NombreArchivo)
-        {
-            PruebaReporte obj_rep = new PruebaReporte();
-
-            obj_rep.GenerarExcel(NombreArchivo);
-        }
-
         public void RespuestasTest(string [] Respuestas)
         {
             cls_TestAptitud_BLL objBLL = new cls_TestAptitud_BLL();
@@ -57,6 +50,13 @@ namespace WCF_ADOTEC.Contract
             cls_TestAptitud_BLL objBLL = new cls_TestAptitud_BLL();
 
             return objBLL.Filtrar_Estudiante(iIdEstudiante);
+        }
+
+        public DataTable Genera_Reporte()
+        {
+            cls_Reportes_BLL obj_rep = new cls_Reportes_BLL();
+
+            return obj_rep.GenerarExcel();
         }
     }
 }
