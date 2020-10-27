@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CatMant\cls_Persona_DAL.cs" />
     <Compile Include="ConexionBD\cls_ConexBD_DAL.cs" />
     <Compile Include="ConexionBD\cls_VariablesConexBD_DAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

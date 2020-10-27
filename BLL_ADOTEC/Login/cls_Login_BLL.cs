@@ -16,7 +16,7 @@ namespace BLL_ADOTEC.Login
         cls_ConexBD_DAL Obj_Conexion = new cls_ConexBD_DAL();
 
 
-        public string ValidarUsuario(string User, string Password)
+        public DataTable ValidarUsuario(string User, string Password)
         {
             try
             {
@@ -31,17 +31,17 @@ namespace BLL_ADOTEC.Login
 
                 if (dt.Rows.Count == 0)
                 {
-                    return "Usuario o Contraseña inválido";
+                    return null;
 
                 }
                 else
                 {
-                    return null;
+                    return dt;
                 }
             }
             catch (Exception x)
             {
-                return x.Message;
+                return null;
                 throw;
             }
             

@@ -20,13 +20,12 @@ namespace WCF_ADOTEC.Contract
         {
             return string.Format("Prueba de configuracion: {0}", value);
         }
-        public string Validar_Usuario(string Usuario, string Contrasena)
+        public DataTable Validar_Usuario(string Usuario, string Contrasena)
         {
-            string Confirmacion;
-            cls_Login_BLL Obj_Login = new cls_Login_BLL();
-            Confirmacion = Obj_Login.ValidarUsuario(Usuario, Contrasena);
+            
+            cls_Login_BLL Obj_Login = new cls_Login_BLL();            
                         
-             return Confirmacion;            
+            return Obj_Login.ValidarUsuario(Usuario, Contrasena);            
 
         }
 

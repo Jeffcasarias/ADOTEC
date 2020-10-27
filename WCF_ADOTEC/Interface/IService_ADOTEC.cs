@@ -16,7 +16,7 @@ namespace WCF_ADOTEC.Interface
         string Metodo_Prueba(string value);
 
         [OperationContract]
-        string Validar_Usuario(string Usuario, string Contrasena);
+        DataTable Validar_Usuario(string Usuario, string Contrasena);
 
         [OperationContract]
         string Recuperar_Contrasena(string Correo);
