@@ -8,3 +8,4 @@ C:\Users\usuario\Source\Repos\ADOTEC_Service\DAL_ADOTEC\bin\Debug\DAL_ADOTEC.pdb
 C:\Users\usuario\Source\Repos\ADOTEC_Service\DAL_ADOTEC\obj\Debug\DAL_ADOTEC.csproj.CoreCompileInputs.cache
 C:\Users\usuario\Source\Repos\ADOTEC_Service\DAL_ADOTEC\obj\Debug\DAL_ADOTEC.dll
 C:\Users\usuario\Source\Repos\ADOTEC_Service\DAL_ADOTEC\obj\Debug\DAL_ADOTEC.pdb
+C:\Users\usuario\Source\Repos\ADOTEC_Service\DAL_ADOTEC\obj\Debug\DAL_ADOTEC.csprojAssemblyReference.cache

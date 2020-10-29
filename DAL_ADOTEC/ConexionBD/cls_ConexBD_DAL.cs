@@ -106,6 +106,16 @@ namespace DAL_ADOTEC.ConexionBD
                                         DBType = SqlDbType.SmallInt;
                                         break;
                                     }
+                                case "6":
+                                    {
+                                        DBType = SqlDbType.Char;
+                                        break;
+                                    }
+                                case "7":
+                                    {
+                                        DBType = SqlDbType.DateTime;
+                                        break;
+                                    }
                             }
 
                             Obj_DB_DAL.Obj_DAdapter.SelectCommand.Parameters.Add(DR["Nombre"].ToString(), DBType).Value = DR["Valor"].ToString();
@@ -187,6 +197,16 @@ namespace DAL_ADOTEC.ConexionBD
                                 case "5":
                                     {
                                         DBType = SqlDbType.SmallInt;
+                                        break;
+                                    }
+                                case "6":
+                                    {
+                                        DBType = SqlDbType.Char;
+                                        break;
+                                    }
+                                case "7":
+                                    {
+                                        DBType = SqlDbType.DateTime;
                                         break;
                                     }
 
@@ -272,6 +292,16 @@ namespace DAL_ADOTEC.ConexionBD
                                 case "5":
                                     {
                                         DBType = SqlDbType.SmallInt;
+                                        break;
+                                    }
+                                case "6":
+                                    {
+                                        DBType = SqlDbType.Char;
+                                        break;
+                                    }
+                                case "7":
+                                    {
+                                        DBType = SqlDbType.DateTime;
                                         break;
                                     }
                             }

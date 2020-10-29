@@ -9,6 +9,8 @@ using WCF_ADOTEC.Interface;
 using BLL_ADOTEC.Login;
 using BLL_ADOTEC.Reportes;
 using BLL_ADOTEC.Test;
+using BLL_ADOTEC.CatMant;
+using DAL_ADOTEC.CatMant;
 using DAL_ADOTEC.ConexionBD;
 using System.Data;
 
@@ -56,6 +58,26 @@ namespace WCF_ADOTEC.Contract
             cls_Reportes_BLL obj_rep = new cls_Reportes_BLL();
 
             return obj_rep.GenerarExcel();
+        }
+
+        public void InsertarPersona(int IdPersona, string Nombre, string Ap1, string Ap2, DateTime FechaNacimiento, char Rol)
+        {
+            cls_Persona_BLL objPersonaBLL = new cls_Persona_BLL();
+            cls_Persona_DAL objPersonaDAL = new cls_Persona_DAL();
+            cls_Usuario_DAL objUsuarioDAL = new cls_Usuario_DAL();
+
+            objPersonaDAL.iIDPERSONA = IdPersona;
+            objPersonaDAL.sNOMBRE = Nombre;
+            objPersonaDAL.sAPELLIDO1 = Ap1;
+            objPersonaDAL.sAPELLIDO2 = Ap2;
+            objPersonaDAL.dFECHA_NAC = FechaNacimiento;
+            objPersonaDAL.cIDESTADO = 'A';
+
+            objUsuarioDAL.cIDESTADO = 'A';
+            objUsuarioDAL.cIDROL = Rol;
+
+            objPersonaBLL.InsertarPersona(ref objPersonaDAL, ref objUsuarioDAL);
+            
         }
     }
 }

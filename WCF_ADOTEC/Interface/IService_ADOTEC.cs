@@ -29,5 +29,8 @@ namespace WCF_ADOTEC.Interface
 
         [OperationContract]
         DataTable Genera_Reporte();
+
+        [OperationContract]
+        void InsertarPersona(int IdPersona, string Nombre, string Ap1, string Ap2, DateTime FechaNacimiento, char Rol);
     }
 }

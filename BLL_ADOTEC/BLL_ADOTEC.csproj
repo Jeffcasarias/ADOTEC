@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CatMant\cls_Persona_BLL.cs" />
+    <Compile Include="CatMant\cls_Usuario_BLL.cs" />
     <Compile Include="Login\cls_Login_BLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reportes\cls_Reportes_BLL.cs" />
