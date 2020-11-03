@@ -242,7 +242,6 @@ namespace DAL_ADOTEC.ConexionBD
             }
         }
 
-
         //Metodo para modificar tablas con variables identity
         public void Ejec_Scalar(ref cls_VariablesConexBD_DAL Obj_DB_DAL)
         {
